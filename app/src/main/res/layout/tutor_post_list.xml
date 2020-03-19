@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/layout_bacground">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="User name"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="28 sep 2017"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/post"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/post_layout"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:text="The secret of a woman’s beauty lies in the obedience of her husband. The more she will obey him the more beautiful "
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/actionCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp">
+
+        <ImageView
+
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/call_black" />
+
+        <TextView
+            android:paddingLeft="5dp"
+            android:id="@+id/call"
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:text="01728335953"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+    </LinearLayout>
+
+</LinearLayout>

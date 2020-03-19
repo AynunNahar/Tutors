@@ -1,0 +1,39 @@
+<resources xmlns:android="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:textColorSecondary">#fff</item>
+    </style>
+
+    <style name="AppTheme2" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorSecondary">#fff</item>
+    </style>
+
+    <style name="TextLabel" parent="TextAppearance.AppCompat">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">#757575</item>
+        <item name="android:textSize">20sp</item>
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">#757575</item>
+        <item name="colorControlNormal">#757575</item>
+        <item name="colorControlActivated">#98B371</item>
+    </style>
+
+    <style name="ThemeSpinner">
+        <!-- Color when pressed -->
+        <item name="colorAccent">#757575</item>
+        <!-- Default color for the dropdown arrow and line -->
+        <item name="colorControlNormal">#98B371</item>
+        <item name="android:background">#fff</item>
+        <item name="android:dropDownSelector">#000</item>
+    </style>
+
+</resources>

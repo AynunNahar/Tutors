@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/layout_bacground">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="User name"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/postMan"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="28 September"
+        android:textSize="15sp"
+        android:id="@+id/date"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/post_layout"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:id="@+id/viewPost"
+        android:text="The secret of a woman’s beauty lies in the obedience of her husband. The more she will obey him the more beautiful she will appear to him because although a woman has the power of love but she is helpless in front of a man. Her weakness is obvious, sooner or later she has to give up and obey him."
+        android:textSize="15sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

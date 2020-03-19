@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/passwordC"
+        android:orderInCategory="100"
+        android:title="Change password"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/signOut"
+        android:icon="@drawable/starw"
+        android:orderInCategory="103"
+        android:title="Sign out"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/post"
+        android:orderInCategory="102"
+        android:title="TimeLine"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/favourites"
+        android:orderInCategory="102"
+        android:title="Favourites"
+        app:showAsAction="never" />
+
+
+</menu>

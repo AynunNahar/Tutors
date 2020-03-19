@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context="com.tutors.LogInFragment"
+    android:background="#fff">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="100dp"
+        android:theme="@style/TextLabel">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:id="@+id/email"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:theme="@style/TextLabel">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:id="@+id/password"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroupLogin"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingTop="15dp"
+        android:weightSum="3">
+
+        <RadioButton
+            android:id="@+id/radio_tutors_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Tutor"
+            app:buttonTint="@color/colorPrimaryDark"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radio_others_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:text="Other"
+            app:buttonTint="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            />
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#8ABE51"
+        android:text="Log in"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff" />
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:orientation="vertical"
+        android:background="@drawable/layout_color_change"
+        android:id="@+id/passwordRecoverLayout">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot password?"
+            android:layout_gravity="right"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:textSize="15dp"
+            android:textColor="#8ABE51"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recover now"
+            android:layout_gravity="right"
+            android:layout_marginRight="40dp"
+            android:textSize="15dp"
+            android:textColor="#8ABE51"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+</LinearLayout>

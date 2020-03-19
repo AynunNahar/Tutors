@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/post_fav"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Post" />
+
+    <item
+        android:id="@+id/timeline_fav"
+        android:orderInCategory="101"
+        app:showAsAction="never"
+        android:title="Timeline" />
+
+    <item
+        android:id="@+id/fav"
+        android:orderInCategory="102"
+        app:showAsAction="never"
+        android:title="Favourites" />
+
+    <item
+        android:id="@+id/fav_delete"
+        android:orderInCategory="103"
+        app:showAsAction="always"
+        android:title="Timeline"
+        android:icon="@drawable/fav_delete"/>
+
+    <item
+        android:id="@+id/call_fav"
+        android:orderInCategory="104"
+        app:showAsAction="always"
+        android:title="Call"
+        android:icon="@drawable/call"/>
+
+    <item
+        android:id="@+id/mgs_fav"
+        android:orderInCategory="105"
+        app:showAsAction="always"
+        android:title="Message"
+        android:icon="@drawable/sms"/>
+
+    <item
+        android:id="@+id/signout_fav"
+        android:orderInCategory="106"
+        app:showAsAction="never"
+        android:title="Signout" />
+
+    <item
+        android:id="@+id/passC"
+        android:orderInCategory="107"
+        app:showAsAction="never"
+        android:title="Change Password" />
+
+
+</menu>

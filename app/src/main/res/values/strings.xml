@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Tutors</string>
+
+    <string-array name="planets_array">
+        <item>Subjects</item>
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+    <string-array name="Education_Qualification">
+        <item>Education_Qualification</item>
+        <item>Master</item>
+        <item>B.sc</item>
+        <item>Hons</item>
+        <item>H.sc</item>
+        <item>S.sc</item>
+        <item>Saturn</item>
+        <item>Diploma</item>
+        <item>Engineering</item>
+    </string-array>
+
+    <string-array name="Subjects_array">
+        <item>Subjects</item>
+        <item>Bangla</item>
+        <item>Mathmetics</item>
+        <item>English</item>
+        <item>Religious</item>
+        <item>Sociology</item>
+        <item>General Science</item>
+        <item>Physics</item>
+        <item>chemistry</item>
+        <item>Biology</item>
+        <item>CSE</item>
+        <item>EEE</item>
+        <item>CE</item>
+        <item>ME</item>
+
+    </string-array>
+
+    <string-array name="classes_array">
+        <item>Classes</item>
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
+        <item>Six</item>
+        <item>Seven</item>
+        <item>Nine</item>
+        <item>Ten</item>
+        <item>S.Sc</item>
+        <item>H.Sc</item>
+        <item>Hons</item>
+        <item>B.Sc</item>
+    </string-array>
+
+    <string-array name="signin_as">
+        <item>SignIn as</item>
+        <item>Tutors</item>
+        <item>Students/Gardians</item>
+    </string-array>
+    <string name="select_Category">"Sara"</string>
+</resources>
